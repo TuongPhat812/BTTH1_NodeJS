@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "60ab65e0fff09f2be005e786"
+  },
+  "ten_dn": "tuongphat",
+  "mat_khau": "tuongphat123",
+  "mat_khau1": "tuongphat123",
+  "ho_ten": "Nguyễn Đỗ Tường Phát",
+  "email": "test@gmail.com",
+  "dia_chi": "uit.com",
+  "so_dt": "0123456789",
+  "Submit": "Đăng ký"
+}]
