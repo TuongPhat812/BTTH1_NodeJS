@@ -1,5 +1,5 @@
 const MongoClient = require("mongodb").MongoClient;
-const url = "mongodb://localhost:27017/qlbh";
+const url = "mongodb://localhost:27017/quanlybanhoa";
 module.exports.select = async function (collectionname, query) {
   const client = await MongoClient.connect(url, {
     useNewUrlParser: true,
@@ -11,7 +11,7 @@ module.exports.select = async function (collectionname, query) {
     return;
   }
   try {
-    const db = client.db("qlbh");
+    const db = client.db("quanlybanhoa");
     let collection = db.collection(collectionname);
     let res = await collection.find(query).toArray();
     return res;
@@ -34,7 +34,7 @@ module.exports.insert = async function (collectionname, obj) {
     return;
   }
   try {
-    const db = client.db("qlbh");
+    const db = client.db("quanlybanhoa");
     let collection = db.collection(collectionname);
     await collection.insert(obj);
   } catch (err) {

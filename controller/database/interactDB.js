@@ -7,7 +7,7 @@ mongoClient.connect('mongodb://127.0.0.1:27017/qlbh', function (err, client) {
 
     console.log('Ket noi thanh cong');
 
-    var db = client.db('qlbh');
+    var db = client.db('quanlybanhoa');
     //tao collection
     //chi tiet don hang
     db.createCollection('hoa', function (err, res) {
