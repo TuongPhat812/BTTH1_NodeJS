@@ -1,7 +1,7 @@
 # BTTH1_NodeJS
 Bai tap thuc hanh 1 - Nodejs - IE213.L21
 
-# Hướng dẫn sử dụng đồ án
+# Hướng dẫn sử dụng
 
 Bước 1: Cài đặt MongoDB Compass Community tại: https://www.mongodb.com/try/download/community
 
